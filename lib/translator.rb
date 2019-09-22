@@ -14,7 +14,7 @@ def load_library(file_path)
   
   emoticons.each do |first_level, all_other_levels |
     
-    emoji_dir[:get_meaning][:japanese_emoticon] << all_other_levels[1].to_s
+    emoji_dir[:get_meaning][:japanese_emoticon] = all_other_levels[1]
     
     p emoji_dir
     binding.pry 
