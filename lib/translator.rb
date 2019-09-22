@@ -13,10 +13,8 @@ def load_library(file_path)
   emoji_dir["get_emoticon"] = {}
   
   emoticons.each do |english_word, emoticon_set |
-    
-    emoji_dir["get_meaning"][emoticon_set.first] = emoticon_set.last
-    emoji_dir["get_emoticon"][emoticon_set.last] = english_word
-   
+        emoji_dir["get_meaning"][emoticon_set.first] = emoticon_set.last
+        emoji_dir["get_emoticon"][emoticon_set.last] = english_word
    
   end 
 emoji_dir
