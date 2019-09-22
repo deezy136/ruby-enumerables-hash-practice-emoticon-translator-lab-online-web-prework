@@ -13,9 +13,11 @@ def load_library(file_path)
   emoji_dir[:get_emoticon] = {}
   
   emoticons.each do |first_level, all_other_levels |
+    all_other_levels do | emoji|
     p all_other_levels
     binding.pry 
   end 
+end 
   
   
   
