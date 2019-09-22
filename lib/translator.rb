@@ -16,10 +16,11 @@ def load_library(file_path)
     
     emoji_dir["get_meaning"][all_other_levels.first] = all_other_levels.last
     
-   emoji_dir
+   
    
   end 
-
+emoji_dir
+   
 end 
   
   
