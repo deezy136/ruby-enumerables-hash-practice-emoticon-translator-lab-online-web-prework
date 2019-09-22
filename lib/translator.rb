@@ -15,7 +15,7 @@ def load_library(file_path)
   emoticons.each do |first_level, all_other_levels |
     
     emoji_dir["get_meaning"][all_other_levels.first] = all_other_levels.last
-    
+    emoji_dir["get_emoticon"][all_other_levels.last] = first_level
    
    
   end 
