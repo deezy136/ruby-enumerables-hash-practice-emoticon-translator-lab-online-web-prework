@@ -17,6 +17,7 @@ def load_library(file_path)
         emoji_dir["get_emoticon"][emoticon_set.last] = english_word
    
   end 
+  p emoji_dir
 emoji_dir
    
 end 
