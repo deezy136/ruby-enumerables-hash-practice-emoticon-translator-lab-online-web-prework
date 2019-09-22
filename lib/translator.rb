@@ -6,13 +6,15 @@ require 'pry'
 
 def load_library(file_path)
   # code goes here
-  emoticon = YAML.load_file(file_path)
+  emoticons = YAML.load_file(file_path)
   
   emoji_dir = Hash.new 
   emoji_dir[:get_meaning] = {}
   emoji_dir[:get_emoticon] = {}
   
-  
+  emoticons.each do |first_level, all_other_levels |
+    
+  end 
   
   
   
