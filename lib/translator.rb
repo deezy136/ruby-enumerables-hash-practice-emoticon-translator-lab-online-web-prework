@@ -14,7 +14,7 @@ def load_library(file_path)
   
   emoticons.each do |first_level, all_other_levels |
     all_other_levels do | emoji|
-    p all_other_levels
+    p emoji
     binding.pry 
   end 
 
