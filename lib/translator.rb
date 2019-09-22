@@ -11,6 +11,11 @@ def load_library(file_path)
   emoji_dir = Hash.new 
   emoji_dir[:get_meaning] = {}
   emoji_dir[:get_emoticon] = {}
+  
+  
+  
+  
+  
   emoji_dir
 end 
 
